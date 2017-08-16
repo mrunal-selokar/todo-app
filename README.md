@@ -1,10 +1,11 @@
-# TodoApp
-
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
-
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
+# todo-app
+Simple To-Do app built in Angular2
+Setup:
+1. $ npm install -g angular-cli
+2. $ ng new todo-app
+3. $ cd todo-app
+4. ng serve --open
+which will start a local development server that you can navigate to in your browser on http://localhost:4200/.
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
