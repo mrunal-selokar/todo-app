@@ -1,0 +1,66 @@
+button{
+  margin: 0;
+  padding: 0;
+  border:0;
+  background: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  -webkit-appearance: none;
+	appearance: none;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+label[for='toggle-all']{
+  display: none;
+}
+
+.toggle-all{
+  position: absolute;
+  top: -55px;
+  left: -12px;
+  width: 60px;
+  text-align: center;
+  border: none;
+}
+
+.toggle-all:before{
+  content:'>';
+  font-size: 22px;
+  color: #e6e6e6;
+  padding: 10px 27px 10px 27px;
+}
+
+.toggle-all:checked:before {
+	color: #797979;
+}
+input::-moz-placeholder{
+  font-style: italic;
+  font-weight: 300;
+  color: #e6e6e6;
+}
+.destroy {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 10px;
+	bottom: 0;
+	width: 40px;
+	height: 40px;
+	margin: auto 0;
+	font-size: 30px;
+	color: #9AA0CC;
+	margin-bottom: 11px;
+	transition: color 0.2s ease-out;
+}
+
+.destroy:hover {
+	color: #5B61AF;
+}
+
+.destroy:after {
+	content: '×';
+}
